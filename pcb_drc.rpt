@@ -1,0 +1,28 @@
+** Drc report for rfid-mirror.kicad_pcb **
+** Created on 2026-02-15T17:04:42-0600 **
+
+** Found 5 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(120.5000 mm, 49.2500 mm): Segment of BT1 on F.Silkscreen
+    @(119.7500 mm, 41.7100 mm): Segment of SW1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.4125 mm, 96.2100 mm): Polygon of U4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.8875 mm, 90.6950 mm): Reference field of L3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(75.1000 mm, 40.1250 mm): Rectangle on Edge.Cuts
+    @(113.2500 mm, 41.7000 mm): Segment of SW1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(75.1000 mm, 40.1250 mm): Rectangle on Edge.Cuts
+    @(118.8500 mm, 39.7100 mm): Segment of SW1 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
