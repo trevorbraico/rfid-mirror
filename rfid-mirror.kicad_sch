@@ -1627,229 +1627,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=B 2=E 3=C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMBT3904_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMBT3904_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3159,6 +2936,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "tbraico:220R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "220R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mW 220Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0603FR-07220RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C107696"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "220R_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "220R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "tbraico:22R"
 			(pin_numbers
 				(hide yes)
@@ -3609,157 +3537,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "tbraico:33R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "33R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100mW 33Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "RC0603FR-0733RL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" "C108661"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "33R_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "33R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -6245,7 +6022,7 @@
 	)
 	(text "USB POWER\nINDICATOR"
 		(exclude_from_sim no)
-		(at 233.68 53.34 0)
+		(at 259.08 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6255,7 +6032,7 @@
 	)
 	(text "BATTERY POWER\nINDICATOR"
 		(exclude_from_sim no)
-		(at 266.7 53.34 0)
+		(at 260.35 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6300,6 +6077,12 @@
 		(uuid "3289772c-84e5-4c79-b0ec-6522f62356af")
 	)
 	(junction
+		(at 250.19 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f52c502-4585-4f1f-8494-74052df609db")
+	)
+	(junction
 		(at 45.72 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6330,22 +6113,16 @@
 		(uuid "71073bfa-1ee5-4575-92e2-e57d9e119ba9")
 	)
 	(junction
-		(at 241.3 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7466c1eb-6e09-4be3-8059-1a8b81430a93")
-	)
-	(junction
 		(at 132.08 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76e24503-8311-4ac9-85dc-e875e5b757d3")
 	)
 	(junction
-		(at 31.75 26.67)
+		(at 26.67 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78fb6285-f029-4219-a936-e103edcc6334")
+		(uuid "7b3a1a6d-7c44-4962-913a-64a99b7cbfa7")
 	)
 	(junction
 		(at 152.4 72.39)
@@ -6605,7 +6382,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 80.01) (xy 241.3 82.55)
+			(xy 250.19 68.58) (xy 250.19 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6632,16 +6409,6 @@
 			(type default)
 		)
 		(uuid "099255ea-1530-4b99-b19c-bb1aa1998f1d")
-	)
-	(wire
-		(pts
-			(xy 224.79 80.01) (xy 241.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09bf9c4b-697e-4d1b-a46c-7da1900f1684")
 	)
 	(wire
 		(pts
@@ -6745,7 +6512,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 26.67) (xy 31.75 26.67)
+			(xy 22.86 26.67) (xy 26.67 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6855,16 +6622,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 59.69) (xy 224.79 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e7791a-ae9b-4cdb-90c0-847dc9e3bd5a")
-	)
-	(wire
-		(pts
 			(xy 22.86 184.15) (xy 22.86 186.69)
 		)
 		(stroke
@@ -6925,13 +6682,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 68.58) (xy 224.79 69.85)
+			(xy 250.19 57.15) (xy 250.19 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3443070b-64ec-4a50-a167-92e7e7e482fc")
+		(uuid "2ca1c00f-ca9b-42e1-b60e-7ad1739800fd")
 	)
 	(wire
 		(pts
@@ -7075,6 +6832,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 30.48) (xy 250.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c09c8e-29f3-4571-8271-6ed67eadae8b")
+	)
+	(wire
+		(pts
 			(xy 29.21 29.21) (xy 29.21 35.56)
 		)
 		(stroke
@@ -7172,16 +6939,6 @@
 			(type default)
 		)
 		(uuid "5bfda99b-cb75-4684-bbfe-c00bc7ceea86")
-	)
-	(wire
-		(pts
-			(xy 256.54 59.69) (xy 256.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c17d5ae-c818-4693-81a2-b943d7f3c4fa")
 	)
 	(wire
 		(pts
@@ -7365,16 +7122,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 77.47) (xy 256.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d2c7c66-a606-457b-918b-eeca67aff742")
-	)
-	(wire
-		(pts
 			(xy 29.21 29.21) (xy 31.75 29.21)
 		)
 		(stroke
@@ -7392,26 +7139,6 @@
 			(type default)
 		)
 		(uuid "7fa009fe-f1d2-46e8-8d7e-3f3ed917a44b")
-	)
-	(wire
-		(pts
-			(xy 224.79 77.47) (xy 224.79 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fdbf085-574f-4274-bffa-da9946e8f18a")
-	)
-	(wire
-		(pts
-			(xy 256.54 50.8) (xy 256.54 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807a4783-c798-4d7f-914a-1d061f9889cf")
 	)
 	(wire
 		(pts
@@ -7465,7 +7192,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 36.83) (xy 256.54 40.64)
+			(xy 250.19 20.32) (xy 250.19 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7552,6 +7279,16 @@
 			(type default)
 		)
 		(uuid "9d9fe354-f793-4f48-938f-54a333353cce")
+	)
+	(wire
+		(pts
+			(xy 250.19 45.72) (xy 250.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a207d7a4-04d8-4316-bb3e-694c7f2a514d")
 	)
 	(wire
 		(pts
@@ -7815,16 +7552,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 45.72) (xy 224.79 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d37547e4-5f74-4870-a9c3-5b4901b239bb")
-	)
-	(wire
-		(pts
 			(xy 109.22 29.21) (xy 104.14 29.21)
 		)
 		(stroke
@@ -7845,7 +7572,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 45.72) (xy 248.92 45.72)
+			(xy 250.19 40.64) (xy 250.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77eb29f-8c5e-4844-a075-ec81b7e3d906")
+	)
+	(wire
+		(pts
+			(xy 224.79 45.72) (xy 250.19 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7882,16 +7619,6 @@
 			(type default)
 		)
 		(uuid "dae1da37-1752-45fa-a1b2-3937a09fb837")
-	)
-	(wire
-		(pts
-			(xy 241.3 80.01) (xy 256.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb6e3f9-185c-48c0-8dff-4e37a4257d07")
 	)
 	(wire
 		(pts
@@ -7932,6 +7659,16 @@
 			(type default)
 		)
 		(uuid "e0839640-3e68-4097-95bd-6561410a7dfe")
+	)
+	(wire
+		(pts
+			(xy 26.67 26.67) (xy 31.75 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1149a00-37c8-4bd9-9a92-1ee1733def4e")
 	)
 	(wire
 		(pts
@@ -8015,16 +7752,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 68.58) (xy 256.54 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f636b396-209a-4420-8560-4417917aa2ff")
-	)
-	(wire
-		(pts
 			(xy 34.29 186.69) (xy 22.86 186.69)
 		)
 		(stroke
@@ -8103,15 +7830,15 @@
 		)
 		(uuid "19e7b5dd-9753-4661-aaff-f3c28707ecf4")
 	)
-	(label "BAT_P"
-		(at 86.36 26.67 180)
+	(label "ST"
+		(at 214.5676 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "36063191-1cee-486a-8eab-a73ce230444f")
+		(uuid "203a3ea4-e9ff-49c2-ac05-be1f82ad137f")
 	)
 	(label "USBD+"
 		(at 101.6 127 0)
@@ -8193,102 +7920,6 @@
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tbraico:33R")
-		(at 224.79 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08c39680-ce46-4cb1-b456-2469160af3cd")
-		(property "Reference" "R5"
-			(at 228.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33R"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 226.568 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 224.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW 33Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
-			(at 224.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 224.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0733RL"
-			(at 224.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C108661"
-			(at 224.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9eddfe27-d5a5-4bb1-9178-965d14dc29fd")
-		)
-		(pin "2"
-			(uuid "f8a86499-952c-46ab-891a-d32e30193ded")
-		)
-		(instances
-			(project "rfid-mirror"
-				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8410,7 +8041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "125a4a8e-18b4-4c26-9f9c-237bdfc02a6e")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 165.1 43.1799 0)
 			(effects
 				(font
@@ -8482,15 +8113,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 162.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4f5133a5-866d-4df9-ad9e-8a826703dd50")
 		)
@@ -8500,7 +8122,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8568,126 +8190,6 @@
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 254 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14d2a9c1-c0a1-4761-b564-306e3d82026d")
-		(property "Reference" "Q1"
-			(at 259.08 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 259.08 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 259.08 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 254 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 254 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 254 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 254 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 254 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MMBT3904LT1G"
-			(at 254 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C81464"
-			(at 254 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8218693c-a8e5-44e8-96c1-5311be013c0c")
-		)
-		(pin "3"
-			(uuid "60d85c12-aaf1-45e9-b049-18bd9b1db1d7")
-		)
-		(pin "2"
-			(uuid "4b6f0082-eff7-430e-a8c7-f343450bd714")
-		)
-		(instances
-			(project "rfid-mirror"
-				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9740,102 +9242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tbraico:22R")
-		(at 224.79 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e2b1a3e-0181-4433-b20d-950d5eb1a892")
-		(property "Reference" "R7"
-			(at 228.6 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22R"
-			(at 228.6 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 226.568 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 224.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22Ω 100mW 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
-			(at 224.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 224.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0722RL"
-			(at 224.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C107701"
-			(at 224.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ca33d77-ac45-4391-b019-a44a6fe5e576")
-		)
-		(pin "1"
-			(uuid "a71f25a9-4d5d-43ed-8c8b-9ca4837ba848")
-		)
-		(instances
-			(project "rfid-mirror"
-				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 95.25 40.64 0)
 		(unit 1)
@@ -9904,15 +9310,16 @@
 	)
 	(symbol
 		(lib_id "tbraico:LED_GREEN")
-		(at 256.54 55.88 90)
+		(at 250.19 26.67 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3fdb6569-29aa-4baf-a57b-4070d7128b4e")
-		(property "Reference" "D2"
-			(at 260.35 55.88 90)
+		(property "Reference" "D1"
+			(at 246.38 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +9328,7 @@
 			)
 		)
 		(property "Value" "LED_GREEN"
-			(at 260.35 58.42 90)
+			(at 246.38 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +9337,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 256.54 55.88 0)
+			(at 250.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +9346,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-e12p8wt86-e.pdf"
-			(at 256.54 55.88 0)
+			(at 250.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,7 +9355,7 @@
 			)
 		)
 		(property "Description" "Green LED Indication - Discrete 2.2V 0603"
-			(at 256.54 55.88 0)
+			(at 250.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +9364,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 256.54 55.88 0)
+			(at 250.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +9373,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM"
-			(at 256.54 55.88 0)
+			(at 250.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +9382,7 @@
 			)
 		)
 		(property "MPN" "SML-E12P8WT86"
-			(at 256.54 55.88 0)
+			(at 250.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,7 +9391,7 @@
 			)
 		)
 		(property "LCSC Part #" "C126319"
-			(at 256.54 55.88 0)
+			(at 250.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,7 +9400,7 @@
 			)
 		)
 		(property "LCSC Part Number" ""
-			(at 256.54 55.88 90)
+			(at 250.19 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +9417,7 @@
 		(instances
 			(project ""
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10018,7 +9425,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 31.75 26.67 0)
+		(at 26.67 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10027,7 +9434,7 @@
 		(fields_autoplaced yes)
 		(uuid "4128b192-9ed9-4d76-be5a-a03a5f58a976")
 		(property "Reference" "#FLG01"
-			(at 31.75 24.765 0)
+			(at 26.67 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +9443,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.75 21.59 0)
+			(at 26.67 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +9452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 26.67 0)
+			(at 26.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +9461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 26.67 0)
+			(at 26.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +9470,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 26.67 0)
+			(at 26.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,102 +9576,6 @@
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
 					(reference "FID3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tbraico:33R")
-		(at 256.54 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48ac2838-a878-4c64-be7c-eb0da3cd467a")
-		(property "Reference" "R6"
-			(at 260.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33R"
-			(at 260.35 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 258.318 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW 33Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0733RL"
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C108661"
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9f1b557-6e6c-4635-b297-7becd99c83bd")
-		)
-		(pin "2"
-			(uuid "5391f4c8-2731-4330-aaf2-ebe16d30eff8")
-		)
-		(instances
-			(project "rfid-mirror"
-				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10405,7 +9716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fcfef85-422d-4802-a3bb-0afa4250aae8")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 139.7 25.4 0)
 			(effects
 				(font
@@ -10455,7 +9766,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10471,7 +9782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5055c369-2bfd-41df-ab4f-3f3ccae12e62")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 204.47 129.5399 0)
 			(effects
 				(font
@@ -10561,7 +9872,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10769,113 +10080,16 @@
 		)
 	)
 	(symbol
-		(lib_id "tbraico:22R")
-		(at 256.54 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "620d37c9-0e84-43b2-8b79-a0d1f820aa3e")
-		(property "Reference" "R8"
-			(at 260.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22R"
-			(at 260.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 258.318 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 256.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22Ω 100mW 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
-			(at 256.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 256.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0722RL"
-			(at 256.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C107701"
-			(at 256.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6ca253e-bb4a-40fc-9cd5-051134a6d901")
-		)
-		(pin "1"
-			(uuid "9d899df2-78d2-4e47-b371-c28b595ea234")
-		)
-		(instances
-			(project "rfid-mirror"
-				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 256.54 36.83 0)
+		(at 250.19 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66ae1a1e-674f-4132-a37a-cc20dbb77dd4")
-		(property "Reference" "#PWR06"
-			(at 256.54 40.64 0)
+		(property "Reference" "#PWR02"
+			(at 250.19 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,7 +10098,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 256.54 31.75 0)
+			(at 255.27 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10892,7 +10106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 36.83 0)
+			(at 250.19 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,7 +10115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 36.83 0)
+			(at 250.19 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 256.54 36.83 0)
+			(at 250.19 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +10138,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10941,7 +10155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68d86fb6-95c5-4b8e-a833-a2b70e8bd96f")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 105.41 96.52 0)
 			(effects
 				(font
@@ -11031,7 +10245,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11234,7 +10448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab98414-6ac9-4bf5-8ee1-af0d3a8b1541")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 29.21 41.91 0)
 			(effects
 				(font
@@ -11285,7 +10499,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11399,7 +10613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 82.55 0)
+		(at 250.19 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11409,7 +10623,7 @@
 		(fields_autoplaced yes)
 		(uuid "87b9a6c2-1d3c-4ecb-9c5d-79c2b8878ddb")
 		(property "Reference" "#PWR015"
-			(at 241.3 88.9 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,7 +10632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 87.63 0)
+			(at 250.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11427,7 +10641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 82.55 0)
+			(at 250.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,7 +10650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 82.55 0)
+			(at 250.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,7 +10659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 82.55 0)
+			(at 250.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,6 +11119,199 @@
 		)
 	)
 	(symbol
+		(lib_id "tbraico:220R")
+		(at 250.19 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9eb065bf-55e2-490e-af5a-f46d2daa14eb")
+		(property "Reference" "R6"
+			(at 247.65 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 247.65 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 251.968 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 220Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07220RL"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107696"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3a52e70-2e18-4698-b469-3d5a50731c87")
+		)
+		(pin "1"
+			(uuid "b61bf0b3-6c88-45bf-9f36-ab2b793e4f69")
+		)
+		(instances
+			(project "rfid-mirror"
+				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tbraico:220R")
+		(at 250.19 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "accdafbe-d1d5-4a55-8b91-b8294b26bf6c")
+		(property "Reference" "R4"
+			(at 247.65 38.1001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 247.65 35.5601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 251.968 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 220Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07220RL"
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107696"
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5639fdbf-764c-452a-99e2-90351a79c7b4")
+		)
+		(pin "1"
+			(uuid "b3e9670a-47cd-437e-90a3-7318f8b9a011")
+		)
+		(instances
+			(project "rfid-mirror"
+				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 134.62 0)
 		(unit 1)
@@ -12094,7 +11501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4be57c5-b4e7-4ae7-a939-44d0a34c5944")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 195.58 129.5399 0)
 			(effects
 				(font
@@ -12184,7 +11591,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12534,7 +11941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca4a8d72-acb3-454f-882f-d4ece4477284")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 87.63 97.7899 0)
 			(effects
 				(font
@@ -12624,7 +12031,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13118,7 +12525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2688a1-4ded-4e07-a358-17557f5b4e41")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -13168,7 +12575,7 @@
 		(instances
 			(project ""
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13292,15 +12699,15 @@
 	)
 	(symbol
 		(lib_id "tbraico:LED_GREEN")
-		(at 224.79 55.88 90)
+		(at 250.19 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dd7e1e96-891d-4bc4-84ea-ba5c9b88fead")
-		(property "Reference" "D1"
-			(at 220.98 55.88 90)
+		(property "Reference" "D2"
+			(at 246.38 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13309,7 +12716,7 @@
 			)
 		)
 		(property "Value" "LED_GREEN"
-			(at 220.98 58.42 90)
+			(at 246.38 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,7 +12725,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 224.79 55.88 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13327,7 +12734,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-e12p8wt86-e.pdf"
-			(at 224.79 55.88 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13336,7 +12743,7 @@
 			)
 		)
 		(property "Description" "Green LED Indication - Discrete 2.2V 0603"
-			(at 224.79 55.88 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13345,7 +12752,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 224.79 55.88 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13354,7 +12761,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM"
-			(at 224.79 55.88 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,7 +12770,7 @@
 			)
 		)
 		(property "MPN" "SML-E12P8WT86"
-			(at 224.79 55.88 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13372,7 +12779,7 @@
 			)
 		)
 		(property "LCSC Part #" "C126319"
-			(at 224.79 55.88 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13381,7 +12788,7 @@
 			)
 		)
 		(property "LCSC Part Number" ""
-			(at 224.79 55.88 90)
+			(at 250.19 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,7 +12805,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13600,7 +13007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e53cbaf2-e578-400c-aac1-4ebd61b411d5")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 87.63 110.4899 0)
 			(effects
 				(font
@@ -13690,7 +13097,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -14036,7 +13443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f88dcfeb-dbb6-4cf2-9fb0-3c75ec9a5242")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 224.79 34.29 0)
 			(effects
 				(font
@@ -14086,7 +13493,7 @@
 		(instances
 			(project "rfid-mirror"
 				(path "/d5f40065-105e-4e8c-8462-c47ae46f6394"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
